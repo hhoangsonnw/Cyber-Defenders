@@ -331,8 +331,6 @@ The event timestamp was:
 2024-02-03T07:38:01.124150Z
 ```
 
-Rounded to the requested format, the UTC timestamp was **2024-02-03 07:38:01 UTC**.
-
 ### Q8: We need to identify if the attacker maintained access to the machine. What is the command used by the attacker for persistence?
 
 **Answer:** `schtasks /create /sc minute /mo 3 /tn "whoisthebaba" /tr C:\Windows\Temp\run.bat /RL HIGHEST`
